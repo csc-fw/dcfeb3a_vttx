@@ -850,9 +850,9 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="521"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="521"/>
     </file>
-    <file xil_pn:name="../dcfeb3a/source/test_points.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="534"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="534"/>
+    <file xil_pn:name="source/test_points.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="535"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="111"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/adc_frame_clk.xise" xil_pn:type="FILE_COREGENISE">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>

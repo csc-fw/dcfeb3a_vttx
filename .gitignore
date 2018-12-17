@@ -92,6 +92,7 @@ PROM/
 *.wcfg
 *.exe
 *.wdb
+stdout.log.bak.*
 
 ### Other ###
 *~

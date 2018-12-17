@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version N-2017.09-SP1
 #--  Project file F:\DCFEB\firmware\ISE_14.7\dcfeb3a_vttx\run_options.txt
-#--  Written on Wed Dec  5 11:28:25 2018
+#--  Written on Mon Dec 17 13:46:05 2018
 
 
 #project files
@@ -103,11 +103,11 @@ add_file -verilog "../dcfeb3a/source/fizzim/Pow_on_Rst_FSM.v"
 add_file -verilog "../dcfeb3a/source/fizzim/Pipe_Start_FSM_TMR.v"
 add_file -verilog "../dcfeb3a/source/fizzim/Pipe_Start_FSM.v"
 add_file -verilog "../dcfeb3a/source/fizzim/op_link_rst_FSM_TMR.v"
-add_file -verilog "../dcfeb3a/ipcore_dir/adc_frame_clk.v"
 add_file -verilog "../dcfeb3a/source/fizzim/op_link_rst_FSM.v"
+add_file -verilog "../dcfeb3a/ipcore_dir/adc_frame_clk.v"
 add_file -verilog "../dcfeb3a/source/fizzim/Frame_Proc_FSM_TMR_Err_Det.v"
-add_file -verilog "../dcfeb3a/source/fizzim/Frame_Proc_FSM_TMR.v"
 add_file -verilog "../dcfeb3a/ipcore_dir/trg_mmcm.v"
+add_file -verilog "../dcfeb3a/source/fizzim/Frame_Proc_FSM_TMR.v"
 add_file -verilog "../dcfeb3a/source/fizzim/Frame_Proc_FSM.v"
 add_file -verilog "../dcfeb3a/source/fizzim/FIFO_Rst_FSM_TMR.v"
 add_file -verilog "../dcfeb3a/source/fizzim/FIFO_Rst_FSM.v"
@@ -170,13 +170,13 @@ add_file -verilog "../dcfeb3a/ipcore_dir/bpi_la.v"
 add_file -verilog "../dcfeb3a/ipcore_dir/BPI_FIFO.v"
 add_file -verilog "../dcfeb3a/ipcore_dir/auto_load_vio.v"
 add_file -verilog "../dcfeb3a/ipcore_dir/auto_load_la.v"
+add_file -verilog "source/test_points.v"
 add_file -verilog "source/JTAG/jtag_access.v"
 add_file -verilog "source/I2C/I2C_interfaces.v"
 add_file -verilog "source/DAQ/daq_optical_out.v"
 add_file -verilog "../dcfeb3a/source/trigger.v"
 add_file -verilog "../dcfeb3a/source/TMB/tmb_fiber_out.v"
 add_file -verilog "../dcfeb3a/source/TMB/comparator_io.v"
-add_file -verilog "../dcfeb3a/source/test_points.v"
 add_file -verilog "../dcfeb3a/source/spi_port.v"
 add_file -verilog "../dcfeb3a/source/SEM/SEM_module.v"
 add_file -verilog "../dcfeb3a/source/RESET/reset_manager.v"
