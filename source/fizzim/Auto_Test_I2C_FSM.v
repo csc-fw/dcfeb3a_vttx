@@ -1,5 +1,5 @@
 
-// Created by fizzim_tmr.pl version $Revision: 4.44 on 2018:12:04 at 16:33:40 (www.fizzim.com)
+// Created by fizzim_tmr.pl version $Revision: 4.44 on 2019:03:28 at 14:28:10 (www.fizzim.com)
 
 module Auto_Test_I2C_FSM (
   output reg CLR_ADDR,
@@ -38,7 +38,7 @@ module Auto_Test_I2C_FSM (
 
 
   reg [15:0] gcnt;
-  reg [1:0] seq_cnt;
+  reg [2:0] seq_cnt;
 
   // comb always block
   always @* begin
@@ -51,7 +51,7 @@ module Auto_Test_I2C_FSM (
       Clr_Addr   :                                           nextstate = Inc_Addr;
       Inc_Addr   : if      (gcnt == 16'd2)                   nextstate = Chk_Rbk;
                    else                                      nextstate = Inc_Addr;
-      Inc_Seq    :                                           nextstate = Clr_Addr;
+      Inc_Seq    :                                           nextstate = Inc_Addr;
       Next_Seq   :                                           nextstate = Start_Test;
       Pause_1    : if      (!TEST_MODE)                      nextstate = Idle;
                    else if (gcnt == 16'hFFFF)                nextstate = Sync;
@@ -60,11 +60,11 @@ module Auto_Test_I2C_FSM (
                    else if (TEST_MODE && gcnt == 16'hFFFF)   nextstate = Sync;
                    else                                      nextstate = Pause_2;
       Rst_Seq    :                                           nextstate = Clr_Addr;
-      Start_Test : if      (SEQ_DONE && seq_cnt == 2'd3)     nextstate = Rst_Seq;
+      Start_Test : if      (SEQ_DONE && seq_cnt == 3'd4)     nextstate = Rst_Seq;
                    else if (SEQ_DONE)                        nextstate = Next_Seq;
                    else                                      nextstate = Start_Test;
       Sync       :                                           nextstate = Start_Test;
-      Update_Errs: if      (seq_cnt == 2'd1)                 nextstate = Pause_2;
+      Update_Errs: if      (seq_cnt == 3'd1)                 nextstate = Pause_2;
                    else                                      nextstate = Inc_Seq;
     endcase
   end
@@ -91,7 +91,7 @@ module Auto_Test_I2C_FSM (
       UPDATE <= 0;
       USE_TEST_DATA <= 0;
       gcnt <= 16'h0000;
-      seq_cnt <= 2'd0;
+      seq_cnt <= 3'd0;
     end
     else begin
       CLR_ADDR <= 0; // default
@@ -110,9 +110,9 @@ module Auto_Test_I2C_FSM (
                             USE_TEST_DATA <= 0;
         end
         Chk_Rbk    : begin
-                            DAQ_CHK <= seq_cnt == 2'd0;
+                            DAQ_CHK <= seq_cnt == 3'd0;
                             INCR <= 1;
-                            TRG_CHK <= seq_cnt == 2'd1;
+                            TRG_CHK <= seq_cnt == 3'd1;
                             gcnt <= gcnt + 1;
         end
         Clr_Addr   :        CLR_ADDR <= 1;
@@ -120,7 +120,7 @@ module Auto_Test_I2C_FSM (
                             INCR <= 1;
                             gcnt <= gcnt + 1;
         end
-        Inc_Seq    :        seq_cnt <= seq_cnt +1;
+        Inc_Seq    :        seq_cnt <= seq_cnt + 1;
         Next_Seq   :        seq_cnt <= seq_cnt + 1;
         Pause_1    : begin
                             CLR_ADDR <= 1;
@@ -130,14 +130,14 @@ module Auto_Test_I2C_FSM (
         Pause_2    : begin
                             CLR_ADDR <= 1;
                             gcnt <= gcnt + 1;
-                            seq_cnt <= 2'd0;
+                            seq_cnt <= 3'd0;
         end
-        Rst_Seq    :        seq_cnt <= 2'd0;
+        Rst_Seq    :        seq_cnt <= 3'd0;
         Start_Test :        START_TEST <= 1;
         Sync       :        SYNC <= 1;
         Update_Errs: begin
-                            DAQ_CHK <= seq_cnt == 2'd0;
-                            TRG_CHK <= seq_cnt == 2'd1;
+                            DAQ_CHK <= seq_cnt == 3'd0;
+                            TRG_CHK <= seq_cnt == 3'd1;
                             UPDATE <= 1;
         end
       endcase

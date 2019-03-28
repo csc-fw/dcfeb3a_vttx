@@ -1,4 +1,4 @@
-## File last modified by Fizzim: 4:26:42 PM on 12/4/18
+## File last modified by Fizzim: 2:28:03 PM on 3/28/19
 <version>
    14.02.18
 </version>
@@ -568,7 +568,7 @@
          -1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -609,7 +609,7 @@
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -623,7 +623,7 @@
          <page>
          -1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -1186,7 +1186,7 @@
          -1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -1227,7 +1227,7 @@
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -1241,7 +1241,7 @@
          <page>
          -1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -2034,7 +2034,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -2075,7 +2075,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -2089,7 +2089,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -2677,7 +2677,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -2718,7 +2718,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -2732,7 +2732,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -3320,7 +3320,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -3361,7 +3361,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -3375,7 +3375,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -3963,12 +3963,12 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
          <value>
-         2'd0
+         3'd0
             <status>
             LOCAL
             </status>
@@ -4004,7 +4004,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -4018,7 +4018,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -5767,7 +5767,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -5808,7 +5808,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -5822,7 +5822,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -6359,7 +6359,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         SEQ_DONE && seq_cnt == 2'd3
+         SEQ_DONE && seq_cnt == 3'd4
             <status>
             LOCAL
             </status>
@@ -6653,7 +6653,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -6694,7 +6694,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -6708,7 +6708,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -6938,7 +6938,7 @@ fzm_globalTable
             GLOBAL_FIXED
             </status>
          <value>
-         seq_cnt == 2'd0
+         seq_cnt == 3'd0
             <status>
             LOCAL
             </status>
@@ -6994,7 +6994,7 @@ fzm_globalTable
             GLOBAL_FIXED
             </status>
          <value>
-         seq_cnt == 2'd1
+         seq_cnt == 3'd1
             <status>
             LOCAL
             </status>
@@ -7296,7 +7296,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -7337,7 +7337,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -7351,7 +7351,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -7581,7 +7581,7 @@ fzm_globalTable
             GLOBAL_FIXED
             </status>
          <value>
-         seq_cnt == 2'd0
+         seq_cnt == 3'd0
             <status>
             LOCAL
             </status>
@@ -7637,7 +7637,7 @@ fzm_globalTable
             GLOBAL_FIXED
             </status>
          <value>
-         seq_cnt == 2'd1
+         seq_cnt == 3'd1
             <status>
             LOCAL
             </status>
@@ -7939,7 +7939,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -7980,7 +7980,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -7994,7 +7994,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -8825,12 +8825,12 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
          <value>
-         2'd0
+         3'd0
             <status>
             LOCAL
             </status>
@@ -8866,7 +8866,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -8880,7 +8880,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -10359,7 +10359,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -10400,7 +10400,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -10414,7 +10414,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -11947,12 +11947,12 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
          <value>
-         seq_cnt +1
+         seq_cnt + 1
             <status>
             LOCAL
             </status>
@@ -11988,7 +11988,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -12002,7 +12002,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED
@@ -12894,37 +12894,37 @@ fzm_globalTable
    Inc_Seq
    </startState>
    <endState>
-   Clr_Addr
+   Inc_Addr
    </endState>
    <startPtX>
-   425.0
+   473.0
    </startPtX>
    <startPtY>
-   777.0
+   805.0
    </startPtY>
    <endPtX>
    551.0
    </endPtX>
    <endPtY>
-   693.0
+   805.0
    </endPtY>
    <startCtrlPtX>
-   443.0
+   495.0
    </startCtrlPtX>
    <startCtrlPtY>
-   715.0
+   805.0
    </startCtrlPtY>
    <endCtrlPtY>
-   492.0
+   528.0
    </endCtrlPtY>
    <endCtrlPtY>
-   704.0
+   805.0
    </endCtrlPtY>
    <startStateIndex>
-   29
+   35
    </startStateIndex>
    <endStateIndex>
-   17
+   19
    </endStateIndex>
    <page>
    1
@@ -13268,7 +13268,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         seq_cnt == 2'd1
+         seq_cnt == 3'd1
             <status>
             LOCAL
             </status>
@@ -14048,7 +14048,7 @@ fzm_globalTable
          1
          </page>
       </gcnt[15:0]>
-      <seq_cnt[1:0]>
+      <seq_cnt[2:0]>
             <status>
             GLOBAL_FIXED
             </status>
@@ -14089,7 +14089,7 @@ fzm_globalTable
             </status>
          </useratts>
          <resetval>
-         2'd0
+         3'd0
             <status>
             GLOBAL_VAR
             </status>
@@ -14103,7 +14103,7 @@ fzm_globalTable
          <page>
          1
          </page>
-      </seq_cnt[1:0]>
+      </seq_cnt[2:0]>
       <USE_TEST_DATA>
             <status>
             GLOBAL_FIXED

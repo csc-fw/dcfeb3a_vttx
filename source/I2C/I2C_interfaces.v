@@ -407,28 +407,37 @@ assign mismatch       = (I2C_RBK_FIFO_DATA != tdata);
 always @*
 begin: I2C_ROM
    case(rom_addr)
-      5'd0: tdata = 8'h76;
-      5'd1: tdata = 8'h00;
-      5'd2: tdata = 8'h64;
-      5'd3: tdata = 8'h55;
-      5'd4: tdata = 8'h33;
-      5'd5: tdata = 8'hE7;
-      5'd6: tdata = 8'h1C;
-      5'd7: tdata = 8'h73;
-      5'd8: tdata = 8'h02;
-      5'd9: tdata = 8'h7A;
-      5'd10: tdata = 8'h00;
-      5'd11: tdata = 8'h7C;
-      5'd12: tdata = 8'h00;
-      5'd13: tdata = 8'h76;
-      5'd14: tdata = 8'h00;
-      5'd15: tdata = 8'h87;
-      5'd16: tdata = 8'h80;
-      5'd17: tdata = 8'h00;
-      5'd18: tdata = 8'h88;
-      5'd19: tdata = 8'hFF;
-      5'd20: tdata = 8'hFF;
-      5'd21: tdata = 8'h04;
+      5'd0: tdata = 8'h72;  // n_bytes 7, write, DAQ
+      5'd1: tdata = 8'h00;  // Register address
+      5'd2: tdata = 8'h64;  // DAQ data reg 0
+      5'd3: tdata = 8'h55;  // DAQ data reg 1
+      5'd4: tdata = 8'h33;  // DAQ data reg 2
+      5'd5: tdata = 8'hE7;  // DAQ data reg 3
+      5'd6: tdata = 8'h1C;  // DAQ data reg 4
+      5'd7: tdata = 8'h73;  // DAQ data reg 5
+      5'd8: tdata = 8'h02;  // DAQ data reg 6
+      5'd9: tdata = 8'h74;  // n_bytes 7, write, TRG
+      5'd10: tdata = 8'h00; // Register address
+      5'd11: tdata = 8'h93; // TRG data reg 0
+      5'd12: tdata = 8'h6B; // TRG data reg 1
+      5'd13: tdata = 8'hC6; // TRG data reg 2
+      5'd14: tdata = 8'h3D; // TRG data reg 3
+      5'd15: tdata = 8'h85; // TRG data reg 4
+      5'd16: tdata = 8'hAE; // TRG data reg 5
+      5'd17: tdata = 8'h17; // TRG data reg 6
+      5'd18: tdata = 8'h7A; // n_bytes 7, read, DAQ
+      5'd19: tdata = 8'h00; // Register address
+      5'd20: tdata = 8'h7C; // n_bytes 7, read, TRG
+      5'd21: tdata = 8'h00; // Register address
+      5'd22: tdata = 8'h76; // n_bytes 7, write, DAQ & TRG
+      5'd23: tdata = 8'h00; // Register address
+      5'd24: tdata = 8'h87; // Default data ror reg 0
+      5'd25: tdata = 8'h80; // Default data ror reg 1
+      5'd26: tdata = 8'h00; // Default data ror reg 2
+      5'd27: tdata = 8'h88; // Default data ror reg 3
+      5'd38: tdata = 8'hFF; // Default data ror reg 4
+      5'd29: tdata = 8'hFF; // Default data ror reg 5
+      5'd30: tdata = 8'h04; // Default data ror reg 6
       default: tdata = 8'h00;
    endcase
 end
