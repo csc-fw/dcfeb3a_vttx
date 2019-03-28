@@ -424,7 +424,7 @@ begin: I2C_ROM
       5'd14: tdata = 8'h3D; // TRG data reg 3
       5'd15: tdata = 8'h85; // TRG data reg 4
       5'd16: tdata = 8'hAE; // TRG data reg 5
-      5'd17: tdata = 8'h17; // TRG data reg 6
+      5'd17: tdata = 8'h07; // TRG data reg 6
       5'd18: tdata = 8'h7A; // n_bytes 7, read, DAQ
       5'd19: tdata = 8'h00; // Register address
       5'd20: tdata = 8'h7C; // n_bytes 7, read, TRG

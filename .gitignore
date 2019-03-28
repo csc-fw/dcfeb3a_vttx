@@ -101,3 +101,5 @@ stdout.log.bak.*
 *.edn
 *.edf
 source/xapps/
+dcfeb3a_vttx.srr.db
+synlog.tcl
