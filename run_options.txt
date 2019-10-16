@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version N-2017.09-SP1
 #--  Project file F:\DCFEB\firmware\ISE_14.7\dcfeb3a_vttx\run_options.txt
-#--  Written on Thu Mar 28 15:52:18 2019
+#--  Written on Wed Oct 16 15:45:14 2019
 
 
 #project files
@@ -102,8 +102,8 @@ add_file -verilog "../dcfeb3a/source/fizzim/Pow_on_Rst_FSM_TMR.v"
 add_file -verilog "../dcfeb3a/source/fizzim/Pow_on_Rst_FSM.v"
 add_file -verilog "../dcfeb3a/source/fizzim/Pipe_Start_FSM_TMR.v"
 add_file -verilog "../dcfeb3a/source/fizzim/Pipe_Start_FSM.v"
-add_file -verilog "../dcfeb3a/ipcore_dir/adc_frame_clk.v"
 add_file -verilog "../dcfeb3a/source/fizzim/op_link_rst_FSM_TMR.v"
+add_file -verilog "../dcfeb3a/ipcore_dir/adc_frame_clk.v"
 add_file -verilog "../dcfeb3a/source/fizzim/op_link_rst_FSM.v"
 add_file -verilog "../dcfeb3a/source/fizzim/Frame_Proc_FSM_TMR_Err_Det.v"
 add_file -verilog "../dcfeb3a/ipcore_dir/trg_mmcm.v"

@@ -431,13 +431,13 @@ begin: I2C_ROM
       5'd21: tdata = 8'h00; // Register address
       5'd22: tdata = 8'h76; // n_bytes 7, write, DAQ & TRG
       5'd23: tdata = 8'h00; // Register address
-      5'd24: tdata = 8'h87; // Default data ror reg 0
-      5'd25: tdata = 8'h80; // Default data ror reg 1
-      5'd26: tdata = 8'h00; // Default data ror reg 2
-      5'd27: tdata = 8'h88; // Default data ror reg 3
-      5'd38: tdata = 8'hFF; // Default data ror reg 4
-      5'd29: tdata = 8'hFF; // Default data ror reg 5
-      5'd30: tdata = 8'h04; // Default data ror reg 6
+      5'd24: tdata = 8'h87; // Default data for reg 0
+      5'd25: tdata = 8'h99; // Default data for reg 1
+      5'd26: tdata = 8'h19; // Default data for reg 2
+      5'd27: tdata = 8'h88; // Default data for reg 3
+      5'd38: tdata = 8'hFF; // Default data for reg 4
+      5'd29: tdata = 8'hFF; // Default data for reg 5
+      5'd30: tdata = 8'h04; // Default data for reg 6
       default: tdata = 8'h00;
    endcase
 end
