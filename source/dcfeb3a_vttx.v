@@ -32,8 +32,8 @@ module dcfeb3a_vttx #(
 //	parameter Strt_dly = 20'h00000,
 //	parameter POR_tmo = 7'd10,
 //	parameter ADC_Init_tmo = 12'd1, 
-	parameter TMR = 1,
-	parameter TMR_Err_Det = 1
+	parameter TMR = 0,
+	parameter TMR_Err_Det = 0
 	)(
 
 	//Clocks
@@ -1335,11 +1335,52 @@ ringbuf_i(
 wire mlt_ovlp;
 wire ovlp_mux;
 
-chanlink_fifo  #(
+
+ /////////////////////////////////////////////////////////////////////////////
+ //                                                                         //
+ //  Channel Link FIFO to feed channel Link path with data from FIFO1       //
+ //                                                                         //
+ /////////////////////////////////////////////////////////////////////////////
+
+//chanlink_fifo  #(
+//	.USE_CHIPSCOPE(USE_CHAN_LINK_CHIPSCOPE),
+//	.TMR(TMR)
+//)
+//chanlink_fifo_i(
+//	// ChipScope Pro signlas
+//	.LA_CNTRL(chn_lnk_la0_c0),
+//	//
+//	.WCLK(clk160),
+//	.RCLK(clk40),
+//   .RST_RESYNC(rst_resync),
+//	.FIFO_RST(daq_fifo_rst),
+//	.SAMP_MAX(samp_max),
+//	.WDATA(rdf_wdata),               // Data from FIFO1 sample FIFO through xfer2ringbuf multiplexer (12 bits);
+//	.WREN(rdf_wren),                 // write enable from transfer_samples state machine.
+//	.L1A_EVT_DATA(l1a_smp_out),      // 38 bit wide input, {l1a_phase,l1a_match,l1amcnt,l1acnt};
+//	.OVRLP_EVT_DATA(ovrlp_smp_out),  // 7 bit wide input, {evt_end,movlp,ovrlp,ocnt,ring_out};
+//	.L1A_WRT_EN(l1a_rd_en),          // Output from L1A sample FIFO is written into L1A event FIFO if an L1A match is present (two read enables per sample).
+//	.WARN(ring_warn),
+//	.TRIG_IN(rng_chn_trg_in),
+//	.TRIG_OUT(rng_chn_trg_out),
+//	.LAST_WRD(last_wrd),
+//	.DVALID(dvalid),
+//	.OVLP_MUX(ovlp_mux),
+//	.MLT_OVLP(mlt_ovlp),
+//	.DOUT(frm_data)
+//	);
+
+ /////////////////////////////////////////////////////////////////////////////
+ //                                                                         //
+ //  Channel Link FIFO to feed channel Link path with data from Ring buffer.//
+ //                                                                         //
+ /////////////////////////////////////////////////////////////////////////////
+
+chanlink_fifo_ring  #(
 	.USE_CHIPSCOPE(USE_CHAN_LINK_CHIPSCOPE),
 	.TMR(TMR)
 )
-chanlink_fifo_i(
+chanlink_fifo_ring_i(
 	// ChipScope Pro signlas
 	.LA_CNTRL(chn_lnk_la0_c0),
 	//
@@ -1348,11 +1389,10 @@ chanlink_fifo_i(
    .RST_RESYNC(rst_resync),
 	.FIFO_RST(daq_fifo_rst),
 	.SAMP_MAX(samp_max),
-	.WDATA(rdf_wdata),               // Data from FIFO1 sample FIFO through xfer2ringbuf multiplexer (12 bits);
-	.WREN(rdf_wren),                 // write enable from transfer_samples state machine.
-	.L1A_EVT_DATA(l1a_smp_out),      // 38 bit wide input, {l1a_phase,l1a_match,l1amcnt,l1acnt};
-	.OVRLP_EVT_DATA(ovrlp_smp_out),  // 7 bit wide input, {evt_end,movlp,ovrlp,ocnt,ring_out};
-	.L1A_WRT_EN(l1a_rd_en),          // Output from L1A sample FIFO is written into L1A event FIFO if an L1A match is present (two read enables per sample).
+	.WDATA(ff_data),              // 18 bits {movlp,ovrlp,ocnt,ring_out}
+	.WREN(ff_push),
+	.L1A_EVT_DATA(l1a_evt_data),  // 37 bits {l1a_phs,l1a_mtch_num,l1anum}
+	.L1A_WRT_EN(l1a_evt_push),
 	.WARN(ring_warn),
 	.TRIG_IN(rng_chn_trg_in),
 	.TRIG_OUT(rng_chn_trg_out),
