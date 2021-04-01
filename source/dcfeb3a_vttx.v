@@ -776,6 +776,7 @@ wire al_execute;
 wire por_al_start;
 wire csp_al_start;
 wire clr_al_done;
+//wire [20:0] debug_sigs;
 
 //assign csp_al_start = 1'b0;
 assign al_start = por_al_start | csp_al_start;
@@ -789,6 +790,7 @@ assign al_start = por_al_start | csp_al_start;
 		// ChipScope Pro signlas
 		.VIO_CNTRL(auto_load_vio_c0),
 		.LA_CNTRL(auto_load_la0_c1),
+//		.debug_sigs(debug_sigs),
 		//
 		.CLK(clk40),
 		.RST(sys_rst),
@@ -2144,6 +2146,7 @@ endgenerate
 		.RGTRNS_ERRCNT(rgtrns_errcnt),
 		.SMPPRC_ERRCNT(smpprc_errcnt),
 		.FRMPRC_ERRCNT(frmprc_errcnt)
+//		.debug_sigs(debug_sigs)
    );
  /////////////////////////////////////////////////////////////////////////////
  //                                                                         //

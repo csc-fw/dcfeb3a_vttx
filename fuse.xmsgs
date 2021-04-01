@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"F:/DCFEB/firmware/ISE_14.7/dcfeb3a_vttx/../xdcfeb3a/source/I2C/I2C_intrf.v" Line 350: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">I2C_STATE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/DCFEB/firmware/ISE_14.7/dcfeb3a_vttx/../dcfeb3a/al_cdac_sim_tf.v" Line 42: Port <arg fmt="%s" index="1">al_cdac_dbg</arg> is not connected to this instance
 </msg>
 
 </messages>

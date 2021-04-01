@@ -205,8 +205,14 @@ module jtag_access #(
 	 input [15:0] RGTRNS_ERRCNT,
 	 input [15:0] SMPPRC_ERRCNT,
 	 input [15:0] FRMPRC_ERRCNT
+	 //	 output [20:0] debug_sigs
 	 );
 
+
+	// temp la output
+//	wire [18:0] al_cdac_dbg;
+//	assign debug_sigs = {al_cth_sdata, al_cth_shck, al_cdac_dbg};
+   //
     wire [1:0] XL1DLYSET;  // Extra L1A delay setting [1:0]
     wire [3:0] LOADPBLK;   // Pre-blockend bits [3:0] not used in DCFEB
 
@@ -574,6 +580,7 @@ end
 		.SDATA(al_cth_sdata),
 		.DAC_ENB(al_dac_enb),
 		.CDAC_DONE(al_cthresh_done)
+//		.al_cdac_dbg(al_cdac_dbg)  // composite signals for logic analyzer
 	);
 
 always @(posedge CLK40 or posedge RST) begin
