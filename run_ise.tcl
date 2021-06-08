@@ -1,5 +1,5 @@
 # Copyright (C) 1994-2016 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-### $Header: //synplicity/uirc/misc/run_ise_template.tcl#4 $
+### $Header: //synplicity/ui202103syn/misc/run_ise_template.tcl#1 $
 #################################################
 ###  SET DESIGN VARIABLES                     ###
 #################################################
@@ -9,7 +9,7 @@ set DeviceName  	"XC6VLX130T"
 set PackageName 	"ff1156"
 set SpeedGrade  	"-1"
 set TopModule   	"dcfeb3a_vttx"
-set EdifFile    	"F:/DCFEB/firmware/ISE_14.7/dcfeb3a_vttx/dcfeb3a_vttx.edn"
+set EdifFile    	"C:/Users/bylsma/Projects/DCFEB/firmware/ISE_14.7/dcfeb3a_vttx/dcfeb3a_vttx.edn"
 
 #################################################
 ###  SET FLOW                                 ###
