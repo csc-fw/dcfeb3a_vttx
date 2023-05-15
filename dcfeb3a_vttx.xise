@@ -788,23 +788,23 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="113"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/source/I2C/I2C_intrf.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="../xdcfeb3b/source/I2C/I2C_intrf.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="9"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/source/fizzim/I2C_cmd_parser_FSM.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="../xdcfeb3b/source/fizzim/I2C_cmd_parser_FSM.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="10"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/source/fizzim/I2C_intrf_FSM.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="../xdcfeb3b/source/fizzim/I2C_intrf_FSM.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/ipcore_dir/I2C_rbk_FIFO.xco" xil_pn:type="FILE_COREGEN">
+    <file xil_pn:name="../xdcfeb3b/ipcore_dir/I2C_rbk_FIFO.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="12"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/ipcore_dir/I2C_write_FIFO.xco" xil_pn:type="FILE_COREGEN">
+    <file xil_pn:name="../xdcfeb3b/ipcore_dir/I2C_write_FIFO.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="11"/>
     </file>
@@ -818,13 +818,13 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="519"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="519"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/source/Sim/I2C_slave_sim.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="../xdcfeb3b/source/Sim/I2C_slave_sim.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="520"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="520"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="520"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/source/fizzim/I2C_slave_sim_FSM.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="../xdcfeb3b/source/fizzim/I2C_slave_sim_FSM.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="521"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="521"/>
@@ -989,10 +989,10 @@
     <file xil_pn:name="../dcfeb3a/ipcore_dir/auto_load_vio.xise" xil_pn:type="FILE_COREGENISE">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/ipcore_dir/I2C_rbk_FIFO.xise" xil_pn:type="FILE_COREGENISE">
+    <file xil_pn:name="../xdcfeb3b/ipcore_dir/I2C_rbk_FIFO.xise" xil_pn:type="FILE_COREGENISE">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../xdcfeb3a/ipcore_dir/I2C_write_FIFO.xise" xil_pn:type="FILE_COREGENISE">
+    <file xil_pn:name="../xdcfeb3b/ipcore_dir/I2C_write_FIFO.xise" xil_pn:type="FILE_COREGENISE">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/auto_load_la.xise" xil_pn:type="FILE_COREGENISE">
