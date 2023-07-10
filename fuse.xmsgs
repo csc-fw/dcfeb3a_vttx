@@ -5,8 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/DCFEB/firmware/ISE_14.7/dcfeb3a_vttx/../dcfeb3a/al_cdac_sim_tf.v" Line 42: Port <arg fmt="%s" index="1">al_cdac_dbg</arg> is not connected to this instance
-</msg>
-
 </messages>
 
