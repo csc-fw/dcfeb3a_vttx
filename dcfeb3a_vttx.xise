@@ -17,15 +17,15 @@
   <files>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/sysmon.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="137"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="136"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/buckeye_interface.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="130"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="129"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/calib_intf.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="129"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="128"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/Pipeline_sim_tf.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -53,7 +53,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/spi_port.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="118"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="117"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/trg_sim_top.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -69,19 +69,19 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/trigger.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="115"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="114"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/ADC/adc_config.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="136"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="135"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/ADC/adc_control_out.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="135"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="134"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/ADC/adc_data_input_gen_csp.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="134"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="133"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/ADC/ADC_data_sim_tf.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -101,7 +101,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/BPI/BPI_ctrl.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="132"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="131"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/BPI/bpi_ctrl_sim.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -117,7 +117,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/BPI/bpi_interface.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="131"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="130"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/BPI/bpi_interface_sim.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -137,11 +137,11 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/CLK/Clock_sources.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="128"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="127"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/channel_link_out.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="126"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="125"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/crc_gen.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -191,7 +191,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/TMB/comparator_io.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="117"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="116"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/TMB/lfsr_R24.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -209,7 +209,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/TMB/tmb_fiber_out.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="116"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="115"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/JTAG/bky_shift.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -220,14 +220,14 @@
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/clkadj_med.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="103"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="102"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/trg_mmcm.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/sem_core.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="85"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="84"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/CLK/daq_mmcm_custom.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -235,91 +235,87 @@
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_comp_daq_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="144"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="143"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_comp_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="145"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="144"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_daq_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="143"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="142"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_deser_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="142"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="141"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_pipe_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="141"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="140"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_sem_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="138"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="137"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/bpi_vio.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="106"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="105"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/bpi_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="107"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="106"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/deser_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="99"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="98"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/deser_vio.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="98"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="97"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/pipe_vio_in.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="90"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="89"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/pipe_vio_out.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="89"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="88"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/pipe_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="91"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="90"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/daq_tx_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="101"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="100"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/daq_tx_vio.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="100"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="99"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/cmp_tx_vio.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="148"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="147"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/cmp_tx_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="149"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="148"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/sem_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="84"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="83"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/sem_vio.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="83"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="82"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/adc_mem_vio.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="150"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="149"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/adc_cnfg_mem_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="151"/>
-    </file>
-    <file xil_pn:name="../dcfeb3a/ipcore_dir/TRG_TX_BUF_BYPASS.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="82"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="150"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/daq_gtx_dual_rate_custom.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -331,7 +327,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/SEM/SEM_module.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="119"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="118"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/SEM/sem_core_sem_mon_fifo.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -339,7 +335,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/source/BPI/auto_load_const.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="133"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="132"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/JTAG/al_buckeye_load.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -351,67 +347,67 @@
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/ch_fifo_ecc.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="104"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="103"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/l1a_smp_fifo.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="93"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="92"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/l1a_buf.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="94"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="93"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/ring_buf.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="88"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="87"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/ring_l1a_buf.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="86"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="85"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/eth_fifo.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="125"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="124"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/fifo16ch_wide.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="124"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="123"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/pipeline_gen_csp.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="123"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="122"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/ringbuf.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="122"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="121"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/xfer2ringbuf.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="121"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="120"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/evt_buf.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="96"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="95"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/fifo1_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="95"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="94"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_rngbuf_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="140"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="139"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/ring_buf_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="87"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="86"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/eth_fifo_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="97"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="96"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/chnlnk_fifo_la.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="105"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="104"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/xfer2ring_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -419,7 +415,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/cmp_dyn_phs_mmcm.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="102"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="101"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/dcfeb3a_sim_top_tf.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -429,7 +425,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/pipeline_ecc.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="92"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="91"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/BPI/FSM_test_sim.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -505,7 +501,7 @@
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_chan_link_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="146"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="145"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/fizzim/auto_load_FSM.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -729,11 +725,11 @@
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/BPI_FIFO.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="108"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="107"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_rngbuf_daq.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="139"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="138"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/JTAG/JTAG_func_sim_tf2.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -763,30 +759,30 @@
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/auto_load_vio.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="109"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="108"/>
     </file>
     <file xil_pn:name="source/dcfeb3a_vttx.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="152"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="151"/>
     </file>
     <file xil_pn:name="source/dcfeb3a_vttx.ucf" xil_pn:type="FILE_UCF">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="source/DAQ/daq_optical_out.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="114"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="113"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/RESET/reset_manager.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="120"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="119"/>
     </file>
     <file xil_pn:name="source/JTAG/jtag_access.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="112"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="111"/>
     </file>
     <file xil_pn:name="source/I2C/I2C_interfaces.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="113"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="112"/>
     </file>
     <file xil_pn:name="../xdcfeb3b/source/I2C/I2C_intrf.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -832,33 +828,39 @@
     </file>
     <file xil_pn:name="source/test_points.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="111"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="110"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/DAQ/chanlink_fifo_ring.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="127"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="6"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="126"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/fizzim/ChnLnk_Frame_SampMax_FSM.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="60"/>
     </file>
     <file xil_pn:name="../dcfeb3a/source/fizzim/ChnLnk_Frame_SampMax_FSM_TMR.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="59"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/auto_load_la.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="110"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="109"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/CSP_auto_load_cntrl.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="147"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="146"/>
     </file>
     <file xil_pn:name="ChnLnk_TF.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="374"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="374"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="374"/>
+    </file>
+    <file xil_pn:name="chanlink_fifo_ring_TF.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="470"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="470"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="470"/>
     </file>
     <file xil_pn:name="../dcfeb3a/ipcore_dir/adc_frame_clk.xise" xil_pn:type="FILE_COREGENISE">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
@@ -1077,7 +1079,7 @@
     <property xil_pn:name="Create ReadBack Data Files" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Cross Clock Analysis" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Custom Simulation Command File Par" xil_pn:value="../dcfeb3a/dcfeb_top_pr_sim_tf.wcfg" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Custom Waveform Configuration File Behav" xil_pn:value="source/Sim/Chnlnk_tf.wcfg" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Custom Waveform Configuration File Behav" xil_pn:value="source/Sim/Chanlink_fifo_ring_tf.wcfg" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Custom Waveform Configuration File Par" xil_pn:value="../dcfeb3a/dcfeb_top_pr_sim_tf.wcfg" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Custom Waveform Configuration File Translate" xil_pn:value="../dcfeb3a/dcfeb3a_sim_top_translate.wcfg" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Cycles for First BPI Page Read" xil_pn:value="1" xil_pn:valueState="default"/>
@@ -1278,8 +1280,8 @@
     <property xil_pn:name="Run for Specified Time Translate" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Safe Implementation" xil_pn:value="No" xil_pn:valueState="default"/>
     <property xil_pn:name="Security" xil_pn:value="Enable Readback and Reconfiguration" xil_pn:valueState="default"/>
-    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/ChnLnk_TF" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.ChnLnk_TF" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/chanlink_fifo_ring_TF" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.chanlink_fifo_ring_TF" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Post-Map" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Post-Route" xil_pn:value="work.dcfeb3a_sim_top_tf" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Post-Translate" xil_pn:value="work.dcfeb3a_sim_top_tf" xil_pn:valueState="non-default"/>
@@ -1288,7 +1290,7 @@
     <property xil_pn:name="Shift Register Minimum Size virtex6" xil_pn:value="2" xil_pn:valueState="default"/>
     <property xil_pn:name="Show All Models" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Simulation Model Target" xil_pn:value="Verilog" xil_pn:valueState="default"/>
-    <property xil_pn:name="Simulation Run Time ISim" xil_pn:value="10000 ns" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Simulation Run Time ISim" xil_pn:value="20000 ns" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Simulation Run Time Map" xil_pn:value="1000 ns" xil_pn:valueState="default"/>
     <property xil_pn:name="Simulation Run Time Par" xil_pn:value="1000 ns" xil_pn:valueState="default"/>
     <property xil_pn:name="Simulation Run Time Translate" xil_pn:value="1000 ns" xil_pn:valueState="default"/>
@@ -1296,7 +1298,7 @@
     <property xil_pn:name="Slice Utilization Ratio" xil_pn:value="100" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify 'define Macro Name and Value" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Search Directories for 'Include" xil_pn:value="../dcfeb3a/source|../dcfeb3a/source/ADC|../dcfeb3a/source/BPI|../dcfeb3a/source/CLK" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Specify Top Level Instance Names Behavioral" xil_pn:value="work.ChnLnk_TF" xil_pn:valueState="default"/>
+    <property xil_pn:name="Specify Top Level Instance Names Behavioral" xil_pn:value="work.chanlink_fifo_ring_TF" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Post-Map" xil_pn:value="Default" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Post-Route" xil_pn:value="work.dcfeb3a_sim_top_tf" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Post-Translate" xil_pn:value="work.dcfeb3a_sim_top_tf" xil_pn:valueState="default"/>
@@ -1304,7 +1306,7 @@
     <property xil_pn:name="Starting Address for Fallback Configuration virtex6" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Starting Placer Cost Table (1-100)" xil_pn:value="11" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Symbolic FSM Compiler" xil_pn:value="true" xil_pn:valueState="default"/>
-    <property xil_pn:name="Synthesis Tool" xil_pn:value="Synplify Pro (VHDL/Verilog)" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)" xil_pn:valueState="default"/>
     <property xil_pn:name="Target Board for Hardware Co-Simulation" xil_pn:value="ML605 (JTAG)" xil_pn:valueState="default"/>
     <property xil_pn:name="Target Simulator" xil_pn:value="Please Specify" xil_pn:valueState="default"/>
     <property xil_pn:name="Timing Mode Map" xil_pn:value="Performance Evaluation" xil_pn:valueState="default"/>
@@ -1338,7 +1340,7 @@
     <property xil_pn:name="Use Synthesis Constraints File" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="User Access Register Value" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="User Browsed Strategy Files" xil_pn:value="C:/Xilinx/14.7/ISE_DS/ISE/data/default.xds" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="UserID Code (8 Digit Hexadecimal)" xil_pn:value="0xdcfeba17" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="UserID Code (8 Digit Hexadecimal)" xil_pn:value="0xdcfeba18" xil_pn:valueState="non-default"/>
     <property xil_pn:name="VHDL Source Analysis Standard" xil_pn:value="VHDL-93" xil_pn:valueState="default"/>
     <property xil_pn:name="Value Range Check" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Verilog Include Directories Synplify" xil_pn:value="../dcfeb3a|../dcfeb3a/source|../dcfeb3a/source/ADC|../dcfeb3a/source/BPI|../dcfeb3a/source/CLK" xil_pn:valueState="non-default"/>
@@ -1356,7 +1358,7 @@
     <!--                                                                                  -->
     <!-- The following properties are for internal use only. These should not be modified.-->
     <!--                                                                                  -->
-    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Module|ChnLnk_TF" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Module|chanlink_fifo_ring_TF" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_DesignName" xil_pn:value="dcfeb_f1.0" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_DevFamilyPMName" xil_pn:value="virtex6" xil_pn:valueState="default"/>
     <property xil_pn:name="PROP_FPGAConfiguration" xil_pn:value="FPGAConfiguration" xil_pn:valueState="default"/>
