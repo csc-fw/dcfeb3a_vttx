@@ -47,9 +47,9 @@ module chanlink_fifo_ring_TF;
 	wire [15:0] DOUT;
 	
 	//Internal
-	reg [17:0] evnt_buf[511:0];
+	reg [17:0] evnt_buf[767:0];
 	reg [36:0] l1a_buf[3:0];
-	reg [8:0]  evnt_buf_add;
+	reg [9:0]  evnt_buf_add;
 	reg [1:0]  l1a_buf_add;
 
 	// Bidirs
@@ -61,7 +61,7 @@ module chanlink_fifo_ring_TF;
 	// Instantiate the Unit Under Test (UUT)
 	chanlink_fifo_ring #(
 		.USE_CHIPSCOPE(0),
-		.TMR(0)
+		.TMR(1)
 	)
 	uut (
 		.LA_CNTRL(LA_CNTRL), 
@@ -101,17 +101,19 @@ module chanlink_fifo_ring_TF;
 	end
 	
 	initial begin
-	   $readmemh ("source/Sim/evnt_buf.dat", evnt_buf, 0, 511);
+	   $readmemh ("source/Sim/evnt_buf.dat", evnt_buf, 0, 767);
 	   $readmemh ("source/Sim/l1a_buf.dat", l1a_buf, 0, 3);
 	end
 	
 	always @(posedge WCLK or posedge FIFO_RST)
 	begin
 		if (FIFO_RST)
-			evnt_buf_add <= 9'd0;
+			evnt_buf_add <= 10'd0;
 		else 
-			if (WREN)
+			if (WREN && evnt_buf_add < 767)
 				evnt_buf_add <= evnt_buf_add + 1;
+			else if (WREN)
+					evnt_buf_add <= 10'd0;
 	end
 	
 	always @(posedge WCLK or posedge FIFO_RST)
@@ -127,7 +129,7 @@ module chanlink_fifo_ring_TF;
 		// Initialize Inputs
 		RST_RESYNC = 1;
 		FIFO_RST = 1;
-		SAMP_MAX = 7'd0;
+		SAMP_MAX = 7'd7;
 		WREN = 0;
 		L1A_WRT_EN = 0;
 		WARN = 0;
@@ -144,7 +146,11 @@ module chanlink_fifo_ring_TF;
 		WREN = 1;
 		#C160_PERIOD;
 		L1A_WRT_EN = 0;
-		#(383*C160_PERIOD);
+		#(767*C160_PERIOD);
+		WREN = 0;
+		#(542*CMS_PERIOD);
+		WREN = 1;
+		#(768*C160_PERIOD);
 		WREN = 0;
 		
 	end
