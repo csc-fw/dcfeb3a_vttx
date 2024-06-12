@@ -1,0 +1,140 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Nov 20 14:40:49 2023
+#
+
+
+Top view:               xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state_5_0cc
+Requested Frequency:    40.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    fsm_tmp.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.857
+
+                   Requested     Estimated     Requested     Estimated                Clock      Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type       Group          
+----------------------------------------------------------------------------------------------------------------
+System             40.0 MHz      443.8 MHz     25.000        2.253         22.747     system     system_clkgroup
+================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+System    System  |  0.000       0.857  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                                     Arrival          
+Instance                                                      Reference     Type     Pin     Net                                                           Time        Slack
+                                                              Clock                                                                                                         
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1]     System        FDC      Q       xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1]     0.236       1.025
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[0]     System        FDC      Q       xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[0]     0.236       1.031
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[2]     System        FDC      Q       xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[2]     0.236       1.036
+============================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                              Starting                                                                                        Required          
+Instance                                                      Reference     Type     Pin     Net                                                              Time         Slack
+                                                              Clock                                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[2]     System        FDC      D       xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state_ns[2]     -0.046       0.857
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1]     System        FDC      D       N_250_i                                                          -0.031       0.862
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[0]     System        FDC      D       N_248_i                                                          -0.031       0.870
+================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.831
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             -0.031
+0.000
+    = Slack (non-critical) :                 0.862
+
+    Number of logic level(s):                1
+    Starting point:                          xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1] / Q
+    Ending point:                            xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                                               Pin      Pin               Arrival     No. of    
+Name                                                              Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1]         FDC        Q        Out     0.236     0.236       -         
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1]         Net        -        -       0.381     -           13        
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state_RNO[1]     LUT6_L     I2       In      -         0.617       -         
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state_RNO[1]     LUT6_L     LO       Out     0.214     0.831       -         
+N_250_i                                                           Net        -        -       0.000     -           1         
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1]         FDC        D        In      -         0.831       -         
+==============================================================================================================================
+
+
+Start clock path (MIN):
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+clk160                                                        Net      -        -       0.000     -           3         
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1]     FDC      C        In      -         0.000       -         
+========================================================================================================================
+
+
+End clock path (MIN):
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+clk160                                                        Net      -        -       0.000     -           3         
+xfer2ringbuf_i.XF2RB_FSM\.transfer_samples_FSM_i.state[1]     FDC      C        In      -         0.000       -         
+========================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

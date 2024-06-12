@@ -1,0 +1,9 @@
+Storage Target: BPI Flash Single FPGA
+Storage Family: Virtex6
+xcf128x       [16M]
+FF
+dcfeb3a_vttx_Va26.mcs
+Z:\CMS\Firmware\Projects\dcfeb\xdcfeb3b\dcfeb3a_vttx\
+
+MCS
+Yes
